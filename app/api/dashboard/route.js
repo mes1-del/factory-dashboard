@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getSheetData } from '@/lib/googleSheets';
-
+import { getSheetData } from '../../../lib/googleSheets';
 export const revalidate = 0;
 
 export async function GET() {
