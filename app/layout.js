@@ -1,5 +1,3 @@
-import './globals.css';
-
 export const metadata = {
   title: 'Factory Master Dashboard',
   description: 'Live Factory Dashboard connected with Google Sheets',
@@ -8,7 +6,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="antialiased bg-gray-100">{children}</body>
+      <body style={{ margin: 0, fontFamily: 'sans-serif', backgroundColor: '#f3f4f6' }}>
+        {children}
+      </body>
     </html>
   );
 }
